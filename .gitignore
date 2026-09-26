@@ -1,2 +1,8 @@
 .tgcloud/
 node_modules/
+.env
+.env.*
+!.env.example
+*.log
+# Legacy local scheduler helper; cloud scheduling is GitHub Actions only.
+scripts/run-daily-digest.ps1
